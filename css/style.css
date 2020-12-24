@@ -1,8 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    margin: 0px;
     padding: 0px;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 header {
@@ -22,4 +32,154 @@ header nav .nav-right-section {
     list-style: none;
     justify-content: center;
     align-items: center;
+}
+
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: black;
+}
+
+nav .nav-right-section .nav-icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section img {
+    border-radius: 50px;
+    border: 3px solid rgb(247, 243, 243);
+    margin-left: 5px;
+   
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-input {
+    width: 523px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+width: 525px;
+border-radius: 100px;
+border: 1px solid #e5e5e6;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #dfe1e5;
+    border-color: #dfe1e500;
+}
+
+main .main-input .main-input-search {
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .main-input .micro-icon {
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+main .main-button {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+main .main-button .main-button-bot {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    width: 160px;
+    height: 36px;
+    margin-right: 10px;
+    border: none;
+    font-size: 14px;
+    color: #5f6368;
+    padding: 0 10px;
+}
+
+main .main-button .main-button-bot:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px 0 #000001;
+    color: #222;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    
+}
+
+footer .footer-padre {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+footer .footer-padre ul {
+    list-style: none;
+    display: flex;
+    
+}
+footer .footer-alto {
+    height: 50px;
+    padding-left: 20px;
+    background-color: rgb(242 242 242);
+    padding-top: 20px;
+}
+
+footer .footer-bajo {
+    display: flex;
+    width: 100%;
+}
+
+footer .footer-bajo li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.left {
+    justify-content: flex-end;
+}
+
+.right {
+    justify-content: flex-start;
+}
+
+footer ul li a {
+    color: #70757a;
+}
+
+footer ul li a:active {
+    color: #70757a;
+    font-style: underline;
 }
