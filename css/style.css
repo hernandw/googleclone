@@ -134,6 +134,8 @@ footer {
     bottom: 0;
     width: 100%;
     color: black;
+    background-color: rgb(242 242 242);
+    borde
     
 }
 
@@ -143,11 +145,13 @@ footer .footer-padre {
     display: flex;
     padding-top: 20px;
     padding-left: 10px;
+    border-top: 1px solid #dedfe3;
 }
 
 footer .footer-padre ul {
     list-style: none;
     display: flex;
+   
     
 }
 footer .footer-alto {
@@ -155,11 +159,14 @@ footer .footer-alto {
     padding-left: 20px;
     background-color: rgb(242 242 242);
     padding-top: 20px;
+    border-top: 1px solid #dedfe3;
 }
 
 footer .footer-bajo {
     display: flex;
     width: 100%;
+    
+    
 }
 
 footer .footer-bajo li {
@@ -179,7 +186,7 @@ footer ul li a {
     color: #70757a;
 }
 
-footer ul li a:active {
-    color: #70757a;
-    font-style: underline;
+footer ul li a:hover {
+    
+    text-decoration: underline;
 }
